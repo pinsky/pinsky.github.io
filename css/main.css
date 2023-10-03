@@ -1,6 +1,12 @@
 /* some miscellanious styles here 
 
+
+
 */
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
 
 #hero-section {
   position: relative;
@@ -145,32 +151,38 @@ font-family: 'Roboto Slab', serif; */
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgb(0, 0, 0);
-  background: linear-gradient(
+  background: rgba(0, 0, 0, 0.87);
+  /* background: linear-gradient(
     0deg,
     rgba(0, 0, 0, 1) 0%,
     rgba(0, 0, 0, 0.927608543417367) 23%,
     rgba(0, 0, 0, 0.8603816526610644) 36%,
     rgba(0, 0, 0, 0) 100%
-  );
+  ); */
 }
 
 /* Styles for the blog content */
 .blog-content {
   position: absolute;
-  bottom: 20px;
-  left: 20px;
+  top: 0px;
+  left: 0px;
   color: #fff;
+  padding: 2rem 2rem;
 }
 
 .blog-content h2 {
   margin: 0;
   font-size: 18px;
 }
+.blog-content a {
+  text-decoration: none;
+  color: #ffffff;
+}
 
 .blog-content p {
   margin: 5px 0;
   font-size: 14px;
+  color: #c8c8c8;
 }
 
 /* The actual timeline (the vertical ruler) */
@@ -519,6 +531,10 @@ div.bar {
   background: rgba(0, 0, 0, 0.342);
   backdrop-filter: blur(8px);
   z-index: 99;
+  overflow: auto;
+}
+.overlay-menu a {
+  text-decoration: none;
 }
 
 .menu-box {
@@ -528,7 +544,10 @@ div.bar {
   margin: 2rem auto;
   padding: 2rem;
   color: white;
+ 
 }
+
+
 
 .menu-box:hover {
   cursor: pointer;
@@ -544,3 +563,22 @@ div.bar {
 .overlay-x:hover {
   cursor: pointer;
 }
+
+
+/* new addition */ 
+
+.content-content p {
+  text-align: justify; 
+  line-height: 1.8rem; 
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.contact a {
+  color: white;
+}
+
+.menu-box i {
+  font-size: 2rem;
+}
+
