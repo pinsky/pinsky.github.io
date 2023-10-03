@@ -163,10 +163,7 @@ font-family: 'Roboto Slab', serif; */
 
 /* Styles for the blog content */
 .blog-content {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  color: #fff;
+  background-color: #d4d4d4c0;
   padding: 2rem 2rem;
 }
 
@@ -176,13 +173,13 @@ font-family: 'Roboto Slab', serif; */
 }
 .blog-content a {
   text-decoration: none;
-  color: #ffffff;
+  color: #000000;
 }
 
 .blog-content p {
   margin: 5px 0;
   font-size: 14px;
-  color: #c8c8c8;
+  color: #261b1b;
 }
 
 /* The actual timeline (the vertical ruler) */
